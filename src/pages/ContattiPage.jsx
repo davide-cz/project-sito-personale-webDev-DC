@@ -13,7 +13,7 @@ export default function () {
                 <div className="border-2 h-auto "> 
                     <img  src={certificato} alt="" />
                 </div>
-                <div className="certified-frame h-auto border-2 p-4">
+                <div className="certified-frame h-auto p-4">
                     <h1 className="text-3xl font-semibold">Contatti</h1>
                     <div className="contact-info " >
                         <div className="flex h-10 gap-2">

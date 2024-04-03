@@ -12,7 +12,7 @@ export default function(){
         <>
         <div className='h-[500px] archive-container bg-gradient-to-br from-prim to-second'>
             {!showCard &&
-                <div className='flex h-80 -space-x-8  justify-center animate-fade'>
+                <div className='flex h-80 flex-wrap -space-x-8  justify-center animate-fade'>
                     {quotes.map((quote,i)=>{
                         return(
                             <div key={`quote-${i}`} className={`z-${10*i} card-container relative my-auto hover:brightness-75 hover:-translate-y-4 transition `}>

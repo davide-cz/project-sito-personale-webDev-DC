@@ -16,7 +16,7 @@ export default function (){
     return (
         <>
         <div className='m-auto backgroundImage'>
-            <div className="  bg-slate-700 p-4">
+            <div className="  bg-gradient-to-b from-slate-700 to-slate-900 p-2">
                 <p className="text-xl font-semibold text-slate-300">Sono Davide Carletti, sono un Web Developer e utilizzo queste tecnologie </p>
             </div>
             <div className="flex flex-wrap logo-flex-container align-middle ">

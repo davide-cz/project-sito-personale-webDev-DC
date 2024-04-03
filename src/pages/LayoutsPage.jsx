@@ -9,7 +9,7 @@ export default function () {
     return (
         <>
             <div>
-                <h1 className="text-lg font-semibold p-4 bg-slate-700 text-slate-300">
+                <h1 className="text-lg font-semibold py-2 px-4 bg-gradient-to-b from-slate-700 to-slate-900 text-slate-300">
                     Questi sono alcuni esempi di layout di pagina e di componenti
                 </h1>
                 <Layout2/>
