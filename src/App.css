@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  
+  li{
+    @apply p-2 hover:underline  hover:underline-offset-2
+  }
+  img{
+    @apply rounded-md max-h-full box-border  justify-items-center
+  }
+
+  .footer-link{
+    @apply  text-gray-200 text-sm
+  }
+
+  /* ----------carousel css---------------- */
+
+
+  .prev-succ-btn{
+    @apply h-10 w-10 -translate-y-5
+  }
+  .title{
+    @apply text-gray-300 text-lg font-bold
+  }
+  
+  .prev-succ-btn>*{
+    @apply h-10 w-10 text-cyan-200 font-bold 
+  }
+  .prev-succ-btn>*:hover{
+    @apply opacity-70
+  }
+  .carousel-container{
+    @apply px-40 py-10
+  }
+
+  /*------------------------------------------------------ */
+
+  
+  .logo-container{
+    @apply w-32 h-40 justify-center align-middle  bg-gray-300 rounded-md opacity-95
+  }
+  .logo-container>h1{
+    @apply px-2 font-semibold
+  }
+  .logo{
+    @apply max-h-full m-auto p-4
+  }
+  .logo-flex-container{
+    @apply max-w-[600px] m-auto justify-center gap-10 p-4
+  }
+  /* css Per Pagina layouts */
+  .description-l-r, .description-r-l{
+    @apply max-h-[400px] grid grid-cols-2 justify-items-center p-8 gap-8
+  }
+  .paragraph{
+    @apply text-sm pl-2
+  }
+  .img-container{
+    @apply max-h-[320px]
+  }
+
+
+  /* *********** QUotes styles ****************** */
+
+  
+.card-container{
+  @apply h-40 w-24
+}
+  .quote-card{
+    @apply h-40 w-24 border-4 border-indigo-900 bg-gradient-to-br from-blue-500 to-blue-700
+  }
+
+  .contact-info{
+    @apply pl-4
+  }
+
+  /* ------------------ Pagina contatti ------------------ */
+
+  .contacts:first-child{
+    @apply w-2/3
+  }
+  .certified-frame{
+    @apply w-1/3
+  }
+
+  /*----------------- Media queries ----------------*/
+  
+  @media (max-width:1024px) {
+
+    .carousel-container{
+      @apply px-5 py-5
+    }
+    
+      .contacts{
+        @apply flex-col
+      }
+
+      .contacts:first-child{
+        @apply w-full
+      }
+      .certified-frame{
+        @apply w-full
+      }
+
+  }
+  @media (max-width:640px) {
+    .description-l-r{
+     @apply grid grid-cols-1 max-h-full
+    }
+    .description-r-l{
+     @apply flex flex-col-reverse max-h-full
+    }
+    
+  }
+  /* ------------------------------------------------------- */
+}
+
+.didascalia {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -10%);/* Optional: to reset default margin */
+}
+
+.btn-icon{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon{
+  width: 100%;
+  height: 100%;
+}
+
+
+.active-quote, .archive-container {
+  display: flex;
+  justify-content: center; /* Centra orizzontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+
+.animate-spinz:hover {
+  animation: spin 5s linear infinite;
+}
+#root{
+  height: 100vh;
+}
+
+/* -------------backGround per homepage ----------------- */
+.backgroundImage {
+  background-image: url("./assets/file cover - 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
