@@ -5,15 +5,20 @@
 @layer base{
   
   li{
-    @apply p-2 hover:underline  hover:underline-offset-2
+    @apply p-2 
   }
   img{
     @apply rounded-md max-h-full box-border  justify-items-center
   }
 
   .footer-link{
-    @apply  text-gray-200 text-sm
+    @apply  text-sky-300 text-sm hover:underline
   }
+
+  .contact-link{
+    @apply font-bold text-sky-700 hover:underline
+  }
+
 
   /* ----------carousel css---------------- */
 
@@ -115,6 +120,12 @@
     
   }
   /* ------------------------------------------------------- */
+}
+
+
+
+a.active{
+ font-weight: 700;
 }
 
 .didascalia {

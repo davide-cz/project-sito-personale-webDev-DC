@@ -9,6 +9,8 @@ import  certificato  from "../assets/certificato1.png";
 export default function () {
     return (
         <>
+            <div className="h-12 bg-gradient-to-b from-slate-700 to-slate-900 text-slate-300">
+            </div>
             <div className="contacts min-h-fit flex align-middle" >
                 <div className="border-2 h-auto "> 
                     <img  src={certificato} alt="" />
@@ -22,7 +24,7 @@ export default function () {
                            
                         </div>
 
-                        <p className="text-md pl-8"> <a href="tel:+393463573746">+39 346 357 3746</a></p>
+                        <p className="text-md pl-8"> <a className='contact-link' href="tel:+393463573746">+39 346 357 3746</a></p>
                     </div>
                     <div className="contact-info " >
                         <div className="flex  h-10 gap-2">
@@ -30,7 +32,7 @@ export default function () {
                             <h1 className="text-lg font-bold pb-1 place-self-end">e-mail:</h1>
                         </div>
 
-                        <p className="text-md pl-8"><a href="mailto:carletti.dav@gmail.com">carletti.dav@gmail.com</a></p>
+                        <p className="text-md pl-8"><a  className='contact-link' href="mailto:carletti.dav@gmail.com">carletti.dav@gmail.com</a></p>
                     </div>
                     <div className="contact-info " >
                         <div className="flex h-10 gap-1 ">

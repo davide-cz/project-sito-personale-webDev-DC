@@ -12,7 +12,7 @@ export default function (){
                     </p>
                 </div>
                 <div className="flex ">
-                    <p className="p-5 text-slate-300">Contattami a <a href="mailto:carletti.dav@gmail.com">carletti.dav@gmail.com</a></p>
+                    <p className="p-5 text-slate-300">Contattami a <a className="footer-link" href="mailto:carletti.dav@gmail.com">carletti.dav@gmail.com</a></p>
                    {/*  <ul className=" flex-col gap-1 py-4 px-8">
                         <li ><NavLink to={'/'}><h2 className="footer-link">homePage</h2></NavLink></li>
                         <li ><NavLink to={'/layouts'}><h2 className="footer-link">layouts</h2></NavLink></li>
