@@ -12,9 +12,9 @@ export default function (){
                     <h1 className="my-auto text-slate-300 font-semibold">DC-WebDev</h1>
                 </div>
                     <ul className="flex my-auto    ">
-                        <li><NavLink to={'/'}><h2 className="nav-link text-slate-300">homePage</h2></NavLink></li>
-                        <li><NavLink to={'/layouts'}><h2 className="nav-link text-slate-300">layouts</h2></NavLink></li>
-                        <li><NavLink to={'/contatti'}><h2 className="nav-link text-slate-300">contatti</h2></NavLink></li>
+                        <li><NavLink to='/'><h2 className="nav-link text-slate-300">homePage</h2></NavLink></li>
+                        <li><NavLink to='/layouts'><h2 className="nav-link text-slate-300">layouts</h2></NavLink></li>
+                        <li><NavLink to='/contatti'><h2 className="nav-link text-slate-300">contatti</h2></NavLink></li>
                     </ul>
             </nav>
         </>

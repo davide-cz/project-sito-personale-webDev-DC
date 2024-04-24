@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import { Route, Routes } from 'react-router-dom'
 import LayoutsPage from './pages/LayoutsPage'
 import ContattiPage from './pages/ContattiPage'
+import NotFound from './pages/NotFound'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<HomePage/>}/>
         <Route path='/layouts' element={<LayoutsPage/>}/>
         <Route path='/contatti' element={<ContattiPage/>}/>
+        <Route path='*' element={<NotFound/>}/>
       </Routes>
       <Footer/>
     </>
