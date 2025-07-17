@@ -39,12 +39,6 @@ export default function ({slides}) {
                                 <figure key={`${slide} ${i}`} 
                                     className={`${currentSlide === i ? '' : 'hidden' }  animate-fade`}>
                                         <img className={`${slide? '':'animate-pulse '} photo hover:opacity-70 hover:scale-105 transition `} src={slide} alt="" />
-                                        <div className="didascalia bg-slate-400 bg-opacity-90 animate-pulse rounded-md">
-                                            <h1 className={` font-bold text-lg ${titleClass(i)} text-lg p-2 text-center`} >Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
-                                            <p className={` font-bold text-lg ${titleClass(i)} text-sm p-2 text-center `} >
-                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt cupiditate minus quidem aut recusandae maiores?
-                                            </p>
-                                        </div>
                                     </figure>
                             )
                         })}
